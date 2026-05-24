@@ -3,7 +3,7 @@
 This repository hosts the public website for **Barakah**, a private baby and family care tracking app for iOS.
 
 The site is published via GitHub Pages at:  
-**https://baby-tracking-system.github.io/bts-ios/**
+**https://barakah-bts.github.io/ios/**
 
 ## Pages
 
