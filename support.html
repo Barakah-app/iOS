@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Barakah</title>
+  <meta name="description" content="Get help with Barakah. FAQs, setup guides, and contact information.">
+  <style>
+    :root {
+      --teal: #45B8AC;
+      --teal-dark: #339990;
+      --cream: #FDF8F2;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --card-bg: #ffffff;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--cream); color: var(--text); }
+
+    nav { background: var(--teal); padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; }
+    nav .logo { color: #fff; font-weight: 700; font-size: 18px; text-decoration: none; }
+    nav a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; margin-left: 24px; }
+    nav a:hover { color: #fff; }
+
+    .page-header { background: var(--teal); color: #fff; padding: 48px 24px 40px; text-align: center; }
+    .page-header h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; }
+    .page-header p { font-size: 16px; opacity: 0.88; }
+
+    .content { max-width: 800px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    .contact-card { background: var(--teal); color: #fff; border-radius: 16px; padding: 28px 32px; margin-bottom: 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .contact-card h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+    .contact-card p { font-size: 15px; opacity: 0.9; }
+    .contact-card a { display: inline-block; margin-top: 12px; background: #fff; color: var(--teal); font-weight: 700; font-size: 14px; padding: 10px 22px; border-radius: 50px; text-decoration: none; }
+    .contact-card a:hover { background: rgba(255,255,255,0.9); }
+
+    h2.section-title { font-size: 22px; font-weight: 800; margin-bottom: 20px; }
+
+    .faq-group { margin-bottom: 40px; }
+    .faq-group h3 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--teal); margin-bottom: 12px; }
+
+    details { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 8px; overflow: hidden; }
+    summary { padding: 16px 20px; font-size: 15px; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; font-size: 20px; font-weight: 400; color: var(--teal); flex-shrink: 0; margin-left: 12px; }
+    details[open] summary::after { content: '−'; }
+    .faq-body { padding: 0 20px 16px; font-size: 14px; color: #374151; line-height: 1.7; }
+    .faq-body p { margin-bottom: 8px; }
+    .faq-body ul { padding-left: 20px; }
+    .faq-body li { margin-bottom: 4px; }
+    .faq-body a { color: var(--teal); text-decoration: none; }
+    .faq-body a:hover { text-decoration: underline; }
+
+    footer { background: #1a1a1a; color: rgba(255,255,255,0.6); text-align: center; padding: 32px 24px; font-size: 14px; }
+    footer a { color: rgba(255,255,255,0.75); text-decoration: none; margin: 0 12px; }
+    footer a:hover { color: var(--teal); }
+    footer .copyright { margin-top: 12px; font-size: 13px; opacity: 0.5; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">Barakah</a>
+  <div>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Support</h1>
+  <p>Answers to common questions and ways to get help.</p>
+</div>
+
+<div class="content">
+
+  <div class="contact-card">
+    <div>
+      <h2>Can't find your answer?</h2>
+      <p>Email us and we'll get back to you within 1–2 business days.</p>
+      <a href="mailto:support@barakahcorp.com">support@barakahcorp.com</a>
+    </div>
+  </div>
+
+  <h2 class="section-title">Frequently Asked Questions</h2>
+
+  <!-- Getting Started -->
+  <div class="faq-group">
+    <h3>Getting Started</h3>
+
+    <details>
+      <summary>Do I need to create an account?</summary>
+      <div class="faq-body">
+        <p>No. Barakah requires no account, no login, and no email address. Just open the app and start tracking. Your data is stored on your device and optionally in your own iCloud account.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I add my baby?</summary>
+      <div class="faq-body">
+        <p>On first launch, the app will prompt you to create your family and add your first child. You can add additional children any time in <strong>Settings → Children → Add Child</strong>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I track multiple children?</summary>
+      <div class="faq-body">
+        <p>Yes. Add as many children as you need from <strong>Settings → Children → Add Child</strong>. Switch between children using the child selector at the top of the Dashboard.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- iCloud & Sync -->
+  <div class="faq-group">
+    <h3>iCloud &amp; Sync</h3>
+
+    <details>
+      <summary>How does iCloud sync work?</summary>
+      <div class="faq-body">
+        <p>Barakah uses Apple CloudKit to sync your data privately through your own iCloud account. Your data goes directly between your devices — it never passes through any server operated by Barakah Corp.</p>
+        <p>To enable sync, make sure you're signed into iCloud on your device and that iCloud Drive is turned on in <strong>iPhone Settings → [your name] → iCloud → iCloud Drive</strong>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>My data isn't syncing. What should I do?</summary>
+      <div class="faq-body">
+        <ul>
+          <li>Confirm iCloud is signed in and iCloud Drive is enabled on all devices.</li>
+          <li>Check your iCloud storage — if it's full, sync will pause.</li>
+          <li>Open the app on each device and wait a few minutes. CloudKit sync is near-real-time but not instantaneous.</li>
+          <li>Force-quit and reopen the app to trigger a fresh sync check.</li>
+          <li>Check the iCloud sync status indicator in <strong>Settings → Data → iCloud Sync</strong>.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>I got a new iPhone. How do I restore my data?</summary>
+      <div class="faq-body">
+        <p>If you transferred your new iPhone from your old one (via iCloud backup or direct transfer), the app and all data will transfer automatically.</p>
+        <p>If you set up the new iPhone fresh, install Barakah from the App Store, sign in to iCloud with the same Apple ID, and your data will sync down automatically within a few minutes.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Family Sharing -->
+  <div class="faq-group">
+    <h3>Family Sharing &amp; Caregivers</h3>
+
+    <details>
+      <summary>How do I share with my partner or a caregiver?</summary>
+      <div class="faq-body">
+        <p>Go to <strong>Settings → Family → Invite Member</strong>. Choose a role (Parent, Caregiver, Viewer, etc.) and an optional expiry date, then share the generated link via iMessage, AirDrop, or any other method. The other person taps the link on their iPhone with Barakah installed.</p>
+        <p>Barakah Premium is required to invite caregivers.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What can each role do?</summary>
+      <div class="faq-body">
+        <ul>
+          <li><strong>Owner / Parent:</strong> Full read and write access. Can manage family members and settings.</li>
+          <li><strong>Caregiver:</strong> Can log feedings, sleep, and diapers.</li>
+          <li><strong>Temporary Caregiver:</strong> Same as Caregiver but access expires automatically on a set date.</li>
+          <li><strong>Viewer:</strong> Read-only. Can see logs but cannot add or edit entries.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I remove a family member?</summary>
+      <div class="faq-body">
+        <p>Go to <strong>Settings → Family → Family Members</strong>, swipe left on the member you want to remove, and tap <strong>Remove</strong>. The last owner cannot be removed.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Feeding -->
+  <div class="faq-group">
+    <h3>Feeding Tracker</h3>
+
+    <details>
+      <summary>How do I log a feeding with Siri?</summary>
+      <div class="faq-body">
+        <p>Say <strong>"Log a feeding in Barakah"</strong> to Siri. You can specify the type (formula, breastfeed, pump) and amount. Barakah will confirm and save the entry without you needing to open the app.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What does the "Last Fed" widget show?</summary>
+      <div class="faq-body">
+        <p>The widget shows your active child's name, how long ago the last feeding was, and a progress bar toward the next suggested feeding interval based on your baby's age. Add it from your iPhone's Home Screen or Lock Screen widget picker — search for "Barakah".</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Growth Charts -->
+  <div class="faq-group">
+    <h3>Growth Charts</h3>
+
+    <details>
+      <summary>Which growth chart standards does Barakah use?</summary>
+      <div class="faq-body">
+        <p>Barakah follows AAP (American Academy of Pediatrics) recommendations:</p>
+        <ul>
+          <li><strong>Ages 0–24 months:</strong> WHO Child Growth Standards (2006)</li>
+          <li><strong>Ages 2–5 years:</strong> CDC 2000 Growth Charts</li>
+        </ul>
+        <p>Three indicators are tracked: Weight-for-Age, Length-for-Age, and Weight-for-Length, each showing the P3, P15, P50, P85, and P97 percentile bands.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Why does my app's percentile differ from my doctor's?</summary>
+      <div class="faq-body">
+        <p>Different electronic health records (EHR) systems may use slightly different smoothing methods, datasets, or age-rounding algorithms. Small differences are normal. Always confirm growth assessments with your pediatrician — Barakah is for informational tracking, not medical diagnosis.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>The Length-for-Age and Weight-for-Length charts aren't showing. Why?</summary>
+      <div class="faq-body">
+        <p>These charts unlock only after you log at least one growth entry that includes a length measurement. Go to the <strong>Report</strong> tab and add a growth entry with weight <em>and</em> length filled in.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Premium -->
+  <div class="faq-group">
+    <h3>Barakah Premium</h3>
+
+    <details>
+      <summary>What's included in Barakah Premium?</summary>
+      <div class="faq-body">
+        <p>Barakah Premium unlocks advanced report exports (PDF), inviting caregivers and family members, and additional premium features added in future updates. The core tracking features (feeding, sleep, diapers, growth, milestones) are free.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I restore my purchase on a new device?</summary>
+      <div class="faq-body">
+        <p>Go to <strong>Settings → Barakah Premium</strong> and tap <strong>Restore Purchases</strong>. Make sure you're signed into the same Apple ID used for the original purchase.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I cancel my subscription?</summary>
+      <div class="faq-body">
+        <p>Go to <strong>iPhone Settings → [your name] → Subscriptions</strong>, select Barakah, and tap <strong>Cancel Subscription</strong>. Cancellations take effect at the end of the current billing period.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Privacy & Data -->
+  <div class="faq-group">
+    <h3>Privacy &amp; Data</h3>
+
+    <details>
+      <summary>How do I delete all my data?</summary>
+      <div class="faq-body">
+        <p><strong>From this device:</strong> Go to <strong>Settings → Log Out</strong>. This removes all family data from the device immediately.</p>
+        <p><strong>From iCloud:</strong> Go to <strong>iPhone Settings → [your name] → iCloud → Manage Account Storage → Barakah → Delete Data</strong>.</p>
+        <p>Deleting the app also removes all local data.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does Barakah send my data to any server?</summary>
+      <div class="faq-body">
+        <p>No. Barakah has no third-party app server. All data lives on your device and, optionally, in your own private iCloud account. We have no access to your data. See our full <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I lock the app with Face ID or Touch ID?</summary>
+      <div class="faq-body">
+        <p>The app automatically requires Face ID / Touch ID (or your passcode as fallback) every time it opens. To manually lock it immediately, go to <strong>Settings → Lock App</strong> or use the Lock App action in the Shortcuts app.</p>
+      </div>
+    </details>
+  </div>
+
+</div>
+
+<footer>
+  <div>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@barakahcorp.com">Contact</a>
+  </div>
+  <p class="copyright">© 2026 AbdurRahman Rozell / Barakah Corp. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
