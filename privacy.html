@@ -65,7 +65,7 @@
 </div>
 
 <div class="content">
-  <p class="updated">Last updated: May 19, 2026</p>
+  <p class="updated">Last updated: June 26, 2026</p>
 
   <div class="tl-dr">
     <h2>&#x2705; The short version</h2>
@@ -93,7 +93,7 @@
   <p>This data is entered by you and remains entirely under your control.</p>
 
   <h2>3. Where data is stored</h2>
-  <p>All data is stored locally on your device using Apple's SwiftData framework and, if you choose to enable iCloud, in your personal iCloud private database via Apple CloudKit. We have no access to your iCloud data — Apple's privacy infrastructure ensures only you and devices signed into your iCloud account can read it.</p>
+  <p>All data is stored locally on your device using Apple's Core Data framework and, if you choose to enable iCloud, in your personal iCloud private database via Apple CloudKit. We have no access to your iCloud data — Apple's privacy infrastructure ensures only you and devices signed into your iCloud account can read it.</p>
   <p>We do not operate any application server, cloud database, or backend API.</p>
 
   <h2>4. iCloud sync and Family Sharing</h2>
@@ -130,7 +130,7 @@
   <p>Deleting the app removes local data immediately. Removing iCloud data removes it from all synced devices.</p>
 
   <h2>13. Security</h2>
-  <p>Barakah supports Face ID, Touch ID, and device passcode authentication to prevent unauthorized access. The app lock is enforced every time the app is opened from background. The device identifier is stored in the Keychain with <code>kSecAttrAccessibleAfterFirstUnlock</code> protection.</p>
+  <p>Barakah supports Face ID, Touch ID, and device passcode authentication to prevent unauthorized access. The app lock is enforced every time the app is opened from background. The device identifier is stored in the Keychain with <code>kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly</code> protection, so it stays on this device only and is never included in encrypted backups or transferred to another device.</p>
 
   <h2>14. Changes to this policy</h2>
   <p>If we make material changes to this policy, we will update the date at the top of this page. The current policy is always available at this URL. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
