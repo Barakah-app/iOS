@@ -18,4 +18,4 @@ The site is published via GitHub Pages at:
 Barakah helps parents log feedings, sleep, diapers, growth measurements, medications, and milestones. Data syncs privately through iCloud — no account required, no third-party servers.
 
 **Contact:** barakah-app@proton.me  
-**© 2026 AbdurRahman Rozell / Barakah Corp**
+**© 2026 BARAKAH TECHNOLOGIES, INC.**
